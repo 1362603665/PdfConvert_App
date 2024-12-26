@@ -5,7 +5,7 @@ using System.Xml;
 
 namespace PdfConvert_App.AsposeLicense
 {
-    internal class AsposeLicensePatch : IDisposable
+    public class AsposeLicensePatch : IDisposable
     {
         private Harmony harmony;
         private const string NEW_EXP = "20591231";
